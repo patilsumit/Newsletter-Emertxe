@@ -1,0 +1,169 @@
+*
+{
+    margin:0;
+    box-sizing: border-box; 
+}
+.container
+{
+    margin:0;
+    padding:0; 
+}
+.headerbox
+{
+    background: rgba(178, 145, 180, 0.8);
+    width:100%;  
+    padding:30px 25px; 
+    font-size:20px;  
+}
+.headerbox>p>a
+{
+   color: rgba(255,0, 255, 1);
+}
+.headerbox>p
+{
+    margin-top:-10px;
+    float: left; 
+}
+.headerbox>p+p
+{
+    margin-top:-25px; 
+    float:right; 
+}
+.header 
+{
+   width:100%;
+   height:100vh; 
+   background:url(animals-birds-nature-21261.jpg);
+   background-position: center;
+   background-size:cover;
+   background-repeat: no-repeat;
+   display:table;
+}
+
+.gridheader
+{
+    display:grid;
+    grid-template-columns:35% 65%;  
+    margin-top: 3em;
+    width:100%;
+    height:auto; 
+}
+.news
+{
+    width:100%;
+    height:75vh;
+    
+}
+.gridnews
+{
+    display:grid;
+    grid-template-columns:50% 50%;
+    width:90%;
+    margin-left:4em;   
+    margin-top:2em;
+    background-color:rgba(178, 170, 180, 0.8) ; 
+}
+.chips
+{
+    width:100%;
+    height:70vh;
+}
+.gridchips
+{
+    display:grid;
+    grid-template-columns:50% 50%;
+    width:90%;
+    margin-left:4em;   
+    margin-top:2em;
+    background-color:rgba(178, 170, 180, 0.8) ; 
+}
+.blog
+{
+    width:100%;
+    height:70vh;
+     
+}
+.gridblog
+{
+    width:100%;
+    margin-top: 2.5em;
+    display:grid;
+    grid-template-columns:50% 50%;  
+    background-color:rgba(178, 170, 180, 0.8) ; 
+    padding-bottom: 1em; 
+}
+.placement
+{
+    width:100%;
+    height:70vh;
+    
+}
+.placementgrid
+{
+    display:grid;
+    width:90%; 
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    
+    margin-left: 5em;
+    margin-top: 2em;
+}
+.student
+{
+    width:100%;
+    height:80vh;
+    
+    background: url(backgrounds-blank-blue-953214.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gridstudent
+{
+    display:grid;
+    width:95%; 
+    grid-template-columns:25% 25% 25% 25%;  
+    grid-gap:15px; 
+    margin-left:10px; 
+    margin-top:2em; 
+}
+.endfoot
+{
+    width:100%;
+    height:15vh;
+    background-color:darkmagenta;
+    
+}
+.footer
+{
+    
+    height:10vh;
+    width:100%;  
+}
+@media screen and (max-width:800px)
+{
+    .headerbox
+    {
+      /* min-width:500px ;   */
+      width:100%; 
+    }
+    .ff
+    {
+        float: right;
+       
+    }
+    .header
+    {
+        font-size:20px; 
+    }
+    .header>img 
+    {
+        width:100vw;
+        height:auto; 
+
+    }
+
+   #news 
+   {
+       grid: 0vw;
+   }
+
+}
